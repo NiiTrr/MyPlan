@@ -1,0 +1,148 @@
+# --------------------------------------------------------------------------------
+# Self-defined
+# --------------------------------------------------------------------------------
+# link directories
+*.ink
+# VS files
+.vs
+*.tlog
+*.vcxproj
+*.filters
+*.cache
+*.deps
+# Pycharm files
+__pycache__
+# Local Data(Private)
+local
+
+# --------------------------------------------------------------------------------
+# CUDA.gitignore
+# --------------------------------------------------------------------------------
+*.i
+*.ii
+*.gpu
+*.ptx
+*.cubin
+*.fatbin
+
+# --------------------------------------------------------------------------------
+# C.gitignore
+# --------------------------------------------------------------------------------
+
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# --------------------------------------------------------------------------------
+# Cmake.gitignore
+# --------------------------------------------------------------------------------
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# --------------------------------------------------------------------------------
+# Others
+# --------------------------------------------------------------------------------
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# MSTest Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.log
+*.scc
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
